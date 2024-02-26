@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WordleClone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90fee7eaf245a95437a72851bc3011f3d3cf6e88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab918542c2c3d96a87385e3f7c370a5e86b34995")]
 [assembly: System.Reflection.AssemblyProductAttribute("WordleClone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WordleClone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
