@@ -1,2 +1,23 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("hej wordle");
+﻿using System;
+using System.IO;
+
+class Program
+{
+    static void Main()
+    {
+        string[] words = File.ReadAllLines("data/Words.txt");
+
+        if (words.Length > 0)
+        {
+            Random rnd = new Random();
+            int randomIndex = rnd.Next(0, words.Length);
+
+            Console.WriteLine("Random Word: " + words[randomIndex]);
+            Console.WriteLine(randomIndex);
+        }
+        else
+        {
+            Console.WriteLine("The file is empty or does not exist.");
+        }
+    }
+}

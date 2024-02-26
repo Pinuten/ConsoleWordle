@@ -12,3 +12,4 @@
 /Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/obj/Debug/net8.0/WordleClone.pdb
 /Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/obj/Debug/net8.0/WordleClone.genruntimeconfig.cache
 /Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/obj/Debug/net8.0/ref/WordleClone.dll
+/Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/obj/Debug/net8.0/WordleClone.sourcelink.json
