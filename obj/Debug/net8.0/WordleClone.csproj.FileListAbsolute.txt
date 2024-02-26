@@ -1,0 +1,14 @@
+/Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/bin/Debug/net8.0/WordleClone
+/Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/bin/Debug/net8.0/WordleClone.deps.json
+/Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/bin/Debug/net8.0/WordleClone.runtimeconfig.json
+/Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/bin/Debug/net8.0/WordleClone.dll
+/Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/bin/Debug/net8.0/WordleClone.pdb
+/Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/obj/Debug/net8.0/WordleClone.GeneratedMSBuildEditorConfig.editorconfig
+/Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/obj/Debug/net8.0/WordleClone.AssemblyInfoInputs.cache
+/Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/obj/Debug/net8.0/WordleClone.AssemblyInfo.cs
+/Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/obj/Debug/net8.0/WordleClone.csproj.CoreCompileInputs.cache
+/Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/obj/Debug/net8.0/WordleClone.dll
+/Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/obj/Debug/net8.0/refint/WordleClone.dll
+/Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/obj/Debug/net8.0/WordleClone.pdb
+/Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/obj/Debug/net8.0/WordleClone.genruntimeconfig.cache
+/Users/salt-dev/salt/salt-labs/WordleClone/WordleClone/obj/Debug/net8.0/ref/WordleClone.dll
