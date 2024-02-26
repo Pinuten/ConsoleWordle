@@ -11,18 +11,10 @@ class Program
     static string GetRandomWord()
     {
         string[] words = File.ReadAllLines("data/Words.txt");
+        Random rnd = new Random();
+        int randomIndex = rnd.Next(0, words.Length);
+        return words[randomIndex];
 
-        if (words.Length > 0)
-        {
-            Random rnd = new Random();
-            int randomIndex = rnd.Next(0, words.Length);
-            return words[randomIndex];
-        }
-        else
-        {
-            Console.WriteLine("The file is empty or does not exist.");
-            return "ERROR";
-        }
     }
 
     static void Guesser()
@@ -37,7 +29,7 @@ class Program
         while (attemptsLeft > 0)
         {
             Console.Write("\nEnter your guess: ");
-            string guessedWord = Console.ReadLine().Trim().ToLower(); 
+            string guessedWord = Console.ReadLine().Trim().ToLower();
 
             if (guessedWord.Length != 5)
             {
