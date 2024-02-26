@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-class Program
+class Wordle
 {
     static void Main(string[] args)
     {
@@ -14,7 +14,6 @@ class Program
         Random random = new Random();
         int randomIndex = random.Next(0, words.Length);
         return words[randomIndex];
-
     }
 
     static void Guesser()
