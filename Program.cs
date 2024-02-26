@@ -11,8 +11,8 @@ class Program
     static string GetRandomWord()
     {
         string[] words = File.ReadAllLines("data/Words.txt");
-        Random rnd = new Random();
-        int randomIndex = rnd.Next(0, words.Length);
+        Random random = new Random();
+        int randomIndex = random.Next(0, words.Length);
         return words[randomIndex];
 
     }
@@ -20,9 +20,9 @@ class Program
     static void Guesser()
     {
         string wordToGuess = GetRandomWord();
-        Console.WriteLine(wordToGuess);
+        //Console.WriteLine(wordToGuess);
         int attemptsLeft = 6;
-        Console.BackgroundColor = ConsoleColor.DarkGray;
+        //Console.BackgroundColor = ConsoleColor.DarkGray;
         Console.WriteLine("Welcome to Saltle!");
         Console.WriteLine("Try to guess the 5-letter word.");
         Console.WriteLine($"You have {attemptsLeft} attempts left.");
@@ -30,7 +30,7 @@ class Program
         {
             Console.Write("\nEnter your guess: ");
             string guessedWord = Console.ReadLine().Trim().ToLower();
-
+            //here i want to add a check fo if the input word is in the list.
             if (guessedWord.Length != 5)
             {
                 Console.WriteLine("Please enter a 5-letter word.");
