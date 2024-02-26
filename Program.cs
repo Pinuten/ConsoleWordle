@@ -13,7 +13,6 @@ class Program
             int randomIndex = rnd.Next(0, words.Length);
 
             Console.WriteLine("Random Word: " + words[randomIndex]);
-            Console.WriteLine(randomIndex);
         }
         else
         {
